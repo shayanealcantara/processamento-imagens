@@ -8,7 +8,7 @@ imagem = (rand()%25)+1;
 
 for (i = 0; i < 25; i++)
      {
-  /* gerando valores aleatórios entre zero e 35
+  /* gerando valores aleatorios entre zero e 35
   printf("%d ", rand() % 25);
 } */
 
