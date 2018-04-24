@@ -1,16 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
+#include <string.h>
 
-selectImage()
-int imagem;
+void selectImage(){
+	int image[25];
 
-imagem = (rand()%25)+1;
+	srand(time(NULL)); // gerando valores aleatorios entre zero e 25
+	for(int i = 0; i < 25; i++){
+		image[i]= (rand()%25)+1;
+		printf("%d ", image[i]);
+	}
+}
 
-for (i = 0; i < 25; i++)
-     {
-  /* gerando valores aleatorios entre zero e 35
-  printf("%d ", rand() % 25);
-} */
+void readImage(){
+	FILE *fp;
+	char imageName[50] = "./DataSet/grass/grass_01.txt";
+	fp = fopen(imageName, "r");
+}
 
-  return 0;
+
+int main(){
+	selectImage();
+	readImage();
+	return 0;
 }
