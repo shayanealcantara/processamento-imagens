@@ -17,25 +17,11 @@ void readImage(){
 	FILE *fp;
 	char imageName[50] = "./DataSet/grass/grass_01.txt";
 	fp = fopen(imageName, "r");
+
+  if (fp==NULL) {
+  printf("Falha.\n");
+  exit(1);
 }
-
-<<<<<<< HEAD
-for (i = 0; i < 25; i++)
-     {
-  /* gerando valores aleatorios entre zero e 25
-  printf("%d ", rand() % 25);
- */
-}
-
-
-
-
-
-if (fp==NULL) {
-printf("Falha.\n");
-exit(1);
-=======
->>>>>>> fd72f16d27b0dc294a86af3ddd1e9e097c330f53
 
 int main(){
 	selectImage();
