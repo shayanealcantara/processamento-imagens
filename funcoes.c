@@ -5,9 +5,12 @@
 #include <math.h>
 #include <curses.h> //binaryToDecimal add -lncurses to the compile.
 
+<<<<<<< HEAD
 #define FILES_TREIN 25
 #define FILES 50
 
+=======
+>>>>>>> 34efd65d9d2d09602c2be982acecdf61f96773ae
 void selectImage(){
 	int image[25];
 
@@ -29,7 +32,11 @@ void readImage(){
   }
 }
 
+<<<<<<< HEAD
 /*void avarageMatrix(* int number, * int ){
+=======
+/*void avarageMatrix(*int number, *int MAX){
+>>>>>>> 34efd65d9d2d09602c2be982acecdf61f96773ae
   int number[], sum;
   float avarage;
 
@@ -38,6 +45,7 @@ void readImage(){
 
 }*/
 
+<<<<<<< HEAD
 void compareAvarage(* float avarageMatrix){ //compara a média (avarageMatrix) com cada pixel pra gerar a matriz binária
 	int pixel;
 	float avarage;
@@ -49,6 +57,8 @@ void compareAvarage(* float avarageMatrix){ //compara a média (avarageMatrix) c
 		}
 }
 
+=======
+>>>>>>> 34efd65d9d2d09602c2be982acecdf61f96773ae
 void binaryToDecimal(*int mBinary){
   int i, binary[4];
   float decimal = 0;
