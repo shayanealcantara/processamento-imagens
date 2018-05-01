@@ -30,11 +30,8 @@ void readImage(){
   }
 }
 
-<<<<<<< HEAD
-/*void avarageMatrix(* int number, * int ){
-=======
-/*void avarageMatrix(*int number, *int MAX){
->>>>>>> 34efd65d9d2d09602c2be982acecdf61f96773ae
+
+/*void avarageMatrix(*int number, *int ){
   int number[], sum;
   float avarage;
 
@@ -54,8 +51,6 @@ void compareAvarage(* float avarageMatrix){ //compara a média (avarageMatrix) c
 		}
 }
 
-=======
->>>>>>> 34efd65d9d2d09602c2be982acecdf61f96773ae
 void binaryToDecimal(*int mBinary){
   int i, binary[4];
   float decimal = 0;
