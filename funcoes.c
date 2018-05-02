@@ -5,11 +5,20 @@
 #include <math.h>
 #include <curses.h> //binaryToDecimal add -lncurses to compile.
 
+<<<<<<< HEAD
 //#define FILES_TREIN 25
 //#define FILES 50
 
 void fillGroups(int *type, int *training, int *test){
 	memset(type, 0, sizeof(int)*51); //fills the vector type with 0
+=======
+#define FILES_TREIN 25
+#define FILES 50
+
+
+void selectImage(){
+	int image[25];
+>>>>>>> 0459aba3be3384e91d23ec35d0bc7ac26e61567f
 
 	srand(time(NULL)); // generating random values between 0 and 25
 	for(int i = 1; i <= 25;){
@@ -45,8 +54,14 @@ void getImagesNames(char *prefix, int *group, char returned_names[26][45]){ //co
 	}
 }*/
 
+<<<<<<< HEAD
 void avarageMatrix(float *matrixImage, int linha, int coluna){
   int *matrixImage, sum = 0, i, linha, j, coluna;
+=======
+
+/*void avarageMatrix(*int number, *int ){
+  int number[], sum;
+>>>>>>> 0459aba3be3384e91d23ec35d0bc7ac26e61567f
   float avarage;
 
 	for(i = linha; i < linha; i++;){  //goes through the matrixImage to get the avarage
@@ -58,7 +73,11 @@ void avarageMatrix(float *matrixImage, int linha, int coluna){
 
   }
 
+<<<<<<< HEAD
 /*void compareAvarage(float *avarageMatrix){ //compara a média (avarageMatrix) com cada pixel pra gerar a matriz binária
+=======
+void compareAvarage(* float avarageMatrix){ //compara a média (avarageMatrix) com cada pixel pra gerar a matriz binária
+>>>>>>> 0459aba3be3384e91d23ec35d0bc7ac26e61567f
 	int pixel;
 	float avarage;
 		for(i = 0; i > FILES_TRAINING; i++){
@@ -69,7 +88,11 @@ void avarageMatrix(float *matrixImage, int linha, int coluna){
 		}
 }
 
+<<<<<<< HEAD
 void binaryToDecimal(int *matrixBinary){ //transformar o número binário concatenado da matriz binária em decimal
+=======
+void binaryToDecimal(*int mBinary){
+>>>>>>> 0459aba3be3384e91d23ec35d0bc7ac26e61567f
   int i, binary[4];
   float decimal = 0;
     for(i = 0; binary > 4; i++){
